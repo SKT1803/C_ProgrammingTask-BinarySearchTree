@@ -1,3 +1,45 @@
+# C Programming Task – Binary Search Tree (BST)
+
+Built as a structured C programming task to demonstrate dynamic memory, recursion, and tree-based algorithms.
+
+This project implements a **Binary Search Tree (BST)** in C with full support for insertion, deletion, listing (in-order traversal), and querying parent nodes. The program is fully command-driven and accepts input via standard input.
+
+---
+
+## Introduction
+
+A **Binary Search Tree** is a binary tree data structure where each node follows these rules:
+
+- Left subtree contains nodes with keys **≤** the node’s key
+- Right subtree contains nodes with keys **>** the node’s key
+- Both subtrees are themselves BSTs
+
+---
+
+## Technologies Used
+
+- Language: **C**
+- Data Structure: **Binary Search Tree**
+- Input: **Standard input (stdin)**
+- Output: **Standard output (stdout)**
+  
+---
+
+## How to Compile & Run
+
+### Compile
+```bash
+   gcc -o bst main.c
+```
+Run
+```bash
+   ./bst
+```
+Then enter commands manually, or pipe from a file:
+```bash
+   ./bst < input.txt
+```
+
 <h2>INTRO</h2>
 You are going to construct and manipulate with Binary Search Tree (BST). BST is a
 rooted binary tree data structure. The nodes in the tree store keys and any internal node in BST has the
